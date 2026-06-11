@@ -1,4 +1,4 @@
-# controle-remedios
+# Medicine Stock Control
 
 Terminal application for managing patients, medicines, and medicine stock with per-entry consumption based on daily dose.
 
