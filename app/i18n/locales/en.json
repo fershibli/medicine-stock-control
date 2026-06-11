@@ -1,0 +1,103 @@
+{
+  "main_menu": {
+    "title": "Main Menu",
+    "options": {
+      "select_patient": "Select patient",
+      "add_patient": "Add patient",
+      "change_language": "Change language",
+      "exit": "Exit"
+    }
+  },
+  "patient_menu": {
+    "title": "Patient Menu",
+    "patient_label": "Patient: {name}",
+    "options": {
+      "list_stock": "List current stock",
+      "add_medicine": "Add medicine",
+      "select_medicine": "Select medicine",
+      "remove_patient": "Remove patient",
+      "back": "Back to main menu"
+    }
+  },
+  "medicine_menu": {
+    "title": "Medicine Menu",
+    "medicine_label": "Medicine: {name}",
+    "options": {
+      "add_stock": "Add stock",
+      "remove_medicine": "Remove medicine",
+      "back": "Back to patient menu"
+    }
+  },
+  "select_patient": {
+    "title": "Select Patient",
+    "empty": "No patients registered.",
+    "option_label": "{index}. {name}"
+  },
+  "select_medicine": {
+    "title": "Select Medicine",
+    "empty": "No active medicines for this patient.",
+    "option_label": "{index}. {name} ({dose} {unit}/day)"
+  },
+  "add_patient": {
+    "title": "Add Patient"
+  },
+  "add_medicine": {
+    "title": "Add Medicine"
+  },
+  "add_stock": {
+    "title": "Add Stock"
+  },
+  "list_stock": {
+    "title": "Current Stock",
+    "empty": "No active medicines with stock data.",
+    "row": "{name}: {stock} {unit} remaining ({dose} {unit}/day)"
+  },
+  "remove_patient": {
+    "title": "Remove Patient",
+    "warning": "This will permanently delete the patient, all medicines, and stock entries."
+  },
+  "remove_medicine": {
+    "title": "Remove Medicine",
+    "warning": "This will deactivate the medicine (soft delete)."
+  },
+  "change_language": {
+    "title": "Change Language",
+    "options": {
+      "en": "English",
+      "pt-br": "Portuguese (Brazil)"
+    },
+    "saved": "Language changed to {language}."
+  },
+  "prompts": {
+    "enter_name": "Enter name: ",
+    "enter_daily_dose": "Enter daily dose: ",
+    "enter_unit": "Enter unit (e.g. pill, ml): ",
+    "enter_quantity": "Enter quantity: ",
+    "enter_date": "Enter entry date (YYYY-MM-DD) or press Enter for today: ",
+    "confirm_yes_no": "Confirm? (y/n): ",
+    "press_enter": "Press Enter to continue...",
+    "select_option": "Select an option: "
+  },
+  "messages": {
+    "patient_added": "Patient added successfully.",
+    "medicine_added": "Medicine added successfully.",
+    "stock_added": "Stock entry added successfully.",
+    "patient_removed": "Patient removed successfully.",
+    "medicine_removed": "Medicine deactivated successfully.",
+    "goodbye": "Goodbye!"
+  },
+  "errors": {
+    "invalid_input": "Invalid input. Please try again.",
+    "invalid_option": "Invalid option. Please try again.",
+    "empty_name": "Name cannot be empty.",
+    "invalid_dose": "Daily dose must be a positive number.",
+    "invalid_quantity": "Quantity must be a positive number.",
+    "invalid_date": "Invalid date. Use YYYY-MM-DD format.",
+    "empty_unit": "Unit cannot be empty.",
+    "patient_not_found": "Patient not found.",
+    "medicine_not_found": "Medicine not found.",
+    "no_patient_selected": "No patient selected.",
+    "no_medicine_selected": "No medicine selected.",
+    "cancelled": "Operation cancelled."
+  }
+}

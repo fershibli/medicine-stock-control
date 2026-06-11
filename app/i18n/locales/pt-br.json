@@ -1,0 +1,103 @@
+{
+  "main_menu": {
+    "title": "Menu Principal",
+    "options": {
+      "select_patient": "Selecionar paciente",
+      "add_patient": "Adicionar paciente",
+      "change_language": "Alterar idioma",
+      "exit": "Sair"
+    }
+  },
+  "patient_menu": {
+    "title": "Menu do Paciente",
+    "patient_label": "Paciente: {name}",
+    "options": {
+      "list_stock": "Listar estoque atual",
+      "add_medicine": "Adicionar remédio",
+      "select_medicine": "Selecionar remédio",
+      "remove_patient": "Remover paciente",
+      "back": "Voltar ao menu principal"
+    }
+  },
+  "medicine_menu": {
+    "title": "Menu do Remédio",
+    "medicine_label": "Remédio: {name}",
+    "options": {
+      "add_stock": "Adicionar estoque",
+      "remove_medicine": "Remover remédio",
+      "back": "Voltar ao menu do paciente"
+    }
+  },
+  "select_patient": {
+    "title": "Selecionar Paciente",
+    "empty": "Nenhum paciente cadastrado.",
+    "option_label": "{index}. {name}"
+  },
+  "select_medicine": {
+    "title": "Selecionar Remédio",
+    "empty": "Nenhum remédio ativo para este paciente.",
+    "option_label": "{index}. {name} ({dose} {unit}/dia)"
+  },
+  "add_patient": {
+    "title": "Adicionar Paciente"
+  },
+  "add_medicine": {
+    "title": "Adicionar Remédio"
+  },
+  "add_stock": {
+    "title": "Adicionar Estoque"
+  },
+  "list_stock": {
+    "title": "Estoque Atual",
+    "empty": "Nenhum remédio ativo com dados de estoque.",
+    "row": "{name}: {stock} {unit} restantes ({dose} {unit}/dia)"
+  },
+  "remove_patient": {
+    "title": "Remover Paciente",
+    "warning": "Isso excluirá permanentemente o paciente, todos os remédios e entradas de estoque."
+  },
+  "remove_medicine": {
+    "title": "Remover Remédio",
+    "warning": "Isso desativará o remédio (exclusão lógica)."
+  },
+  "change_language": {
+    "title": "Alterar Idioma",
+    "options": {
+      "en": "Inglês",
+      "pt-br": "Português (Brasil)"
+    },
+    "saved": "Idioma alterado para {language}."
+  },
+  "prompts": {
+    "enter_name": "Digite o nome: ",
+    "enter_daily_dose": "Digite a dose diária: ",
+    "enter_unit": "Digite a unidade (ex: comprimido, ml): ",
+    "enter_quantity": "Digite a quantidade: ",
+    "enter_date": "Digite a data de entrada (AAAA-MM-DD) ou Enter para hoje: ",
+    "confirm_yes_no": "Confirmar? (s/n): ",
+    "press_enter": "Pressione Enter para continuar...",
+    "select_option": "Selecione uma opção: "
+  },
+  "messages": {
+    "patient_added": "Paciente adicionado com sucesso.",
+    "medicine_added": "Remédio adicionado com sucesso.",
+    "stock_added": "Entrada de estoque adicionada com sucesso.",
+    "patient_removed": "Paciente removido com sucesso.",
+    "medicine_removed": "Remédio desativado com sucesso.",
+    "goodbye": "Até logo!"
+  },
+  "errors": {
+    "invalid_input": "Entrada inválida. Tente novamente.",
+    "invalid_option": "Opção inválida. Tente novamente.",
+    "empty_name": "O nome não pode estar vazio.",
+    "invalid_dose": "A dose diária deve ser um número positivo.",
+    "invalid_quantity": "A quantidade deve ser um número positivo.",
+    "invalid_date": "Data inválida. Use o formato AAAA-MM-DD.",
+    "empty_unit": "A unidade não pode estar vazia.",
+    "patient_not_found": "Paciente não encontrado.",
+    "medicine_not_found": "Remédio não encontrado.",
+    "no_patient_selected": "Nenhum paciente selecionado.",
+    "no_medicine_selected": "Nenhum remédio selecionado.",
+    "cancelled": "Operação cancelada."
+  }
+}
